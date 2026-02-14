@@ -89,14 +89,18 @@ const Navbar = () => {
                 </div>
                 <div className='p-4'>
                     <h2 className='text-lg font-semibold text-gray-800 flex justify-center'>Menu</h2>
-             <nav>
-                <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Men</Link>
-                <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Women</Link>
-                <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Top Wear</Link>
-                <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Bottom Wear</Link>
+                    <nav>
+                        <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Men</Link>
+                        <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Women</Link>
+                        <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Top Wear</Link>
+                        <Link to='/#' className='block py-2 text-gray-600 hover:text-gray-800'>Bottom Wear</Link>
 
-             </nav>
+                    </nav>
                 </div>
+
+            </div>
+
+            <div className='border border-gray-200 '>
 
             </div>
         </>

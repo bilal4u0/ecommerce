@@ -2,10 +2,11 @@ import React from 'react'
 import { IoLogoGithub, IoLogoInstagram } from 'react-icons/io5'
 import { TbBrandMeta } from 'react-icons/tb'
 import { Link } from 'react-router-dom'
+import { FiPhoneCall} from 'react-icons/fi'
 
 const Footer = () => {
     return (
-        <footer className='border-t py-12'>
+        <footer className='py-12'>
             <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4 lg:px-0'>
                 <div>
                     <h3 className='text-lg text-gray-800 mb-4 '>
@@ -80,7 +81,17 @@ const Footer = () => {
                         <IoLogoGithub className='h-5 w-5' />
                         </a>
                     </div>
+                <p className='text-gray-500'>Call Us</p>
+                <p>
+                    <FiPhoneCall className='inline-block mr-2'/>
+                    89-51-47-9967
+                </p>
                 </div>
+            </div>
+            <div className='container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6'>
+                <p className='text-gray-500 text-sm tracking-tighter text-center'>
+                    &copy; 2025, CompileTab. All Rights Reserved. 
+                </p>
             </div>
         </footer>
     )
