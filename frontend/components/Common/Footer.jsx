@@ -2,7 +2,7 @@ import React from 'react'
 import { IoLogoGithub, IoLogoInstagram } from 'react-icons/io5'
 import { TbBrandMeta } from 'react-icons/tb'
 import { Link } from 'react-router-dom'
-import { FiPhoneCall} from 'react-icons/fi'
+import { FiPhoneCall } from 'react-icons/fi'
 
 const Footer = () => {
     return (
@@ -72,25 +72,25 @@ const Footer = () => {
                     <h3 className='text-lg text-gray-800 mb-4 '>Follow Us</h3>
                     <div className='flex items-center space-x-4 mb-6  '>
                         <a href="https://www.facebook.com" target='_blank' rel='noopener noreference' className='hover:text-gray-300'>
-                        <TbBrandMeta className='h-5 w-5' />
+                            <TbBrandMeta className='h-5 w-5' />
                         </a>
                         <a href="https://www.facebook.com" target='_blank' rel='noopener noreference' className='hover:text-gray-300'>
-                        <IoLogoInstagram className='h-5 w-5' />
+                            <IoLogoInstagram className='h-5 w-5' />
                         </a>
                         <a href="https://www.facebook.com" target='_blank' rel='noopener noreference' className='hover:text-gray-300'>
-                        <IoLogoGithub className='h-5 w-5' />
+                            <IoLogoGithub className='h-5 w-5' />
                         </a>
                     </div>
-                <p className='text-gray-500'>Call Us</p>
-                <p>
-                    <FiPhoneCall className='inline-block mr-2'/>
-                    89-51-47-9967
-                </p>
+                    <p className='text-gray-500'>Call Us</p>
+                    <p>
+                        <FiPhoneCall className='inline-block mr-2' />
+                        89-51-47-9967
+                    </p>
                 </div>
             </div>
             <div className='container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6'>
                 <p className='text-gray-500 text-sm tracking-tighter text-center'>
-                    &copy; 2025, CompileTab. All Rights Reserved. 
+                    &copy; 2025, CompileTab. All Rights Reserved.
                 </p>
             </div>
         </footer>
